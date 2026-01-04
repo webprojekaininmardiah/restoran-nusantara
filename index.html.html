@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Restoran Nusantara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+    </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="container">
+    <h1>RESTORAN NUSANTARA</h1>
+    <p>
+        Restoran Nusantara menyajikan aneka masakan khas Indonesia
+        dengan cita rasa autentik dan bahan pilihan.
+    </p>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="container">
+    <h2>Daftar Menu</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama Makanan</th>
+                <th>Harga</th>
+                <th>Deskripsi</th>
+                <th>Gambar</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody id="menuTable"></tbody>
+    </table>
+
+    <h3>Tambah / Edit Menu</h3>
+    <form id="menuForm">
+        <input type="hidden" id="index">
+        <input type="text" id="nama" placeholder="Nama Makanan" required>
+        <input type="number" id="harga" placeholder="Harga" required>
+        <input type="text" id="deskripsi" placeholder="Deskripsi" required>
+        <input type="text" id="gambar" placeholder="URL Gambar" required>
+        <button type="submit">Simpan</button>
+    </form>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak" class="container">
+    <h2>Kontak Kami</h2>
+    <p>Email : restoran@nusantara.id</p>
+    <p>Telepon : 0812-3456-7890</p>
+    <p>Alamat : Jl. Kuliner Nusantara No.10</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 Restoran Nusantara | Cita Rasa Indonesia</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

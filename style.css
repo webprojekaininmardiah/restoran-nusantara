@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #fff8f0, #f5e6d3);
+    color: #333;
+}
+
+/* ===== NAVBAR ===== */
+nav {
+    background: linear-gradient(90deg, #8B0000, #B22222);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+    text-shadow: 0 0 5px rgba(255,215,0,0.7);
+}
+
+/* ===== SECTION ===== */
+.container {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+/* ===== HOME ===== */
+#home {
+    background: url("https://images.unsplash.com/photo-1604908177522-05094c9b58d5") center/cover no-repeat;
+    color: white;
+    padding: 100px 10%;
+    border-radius: 0 0 40px 40px;
+}
+
+#home h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 5px black;
+}
+
+#home p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* ===== TABLE ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+th {
+    background: linear-gradient(90deg, #8B0000, #B22222);
+    color: white;
+    padding: 15px;
+}
+
+td {
+    padding: 12px;
+}
+
+tr:hover {
+    background-color: #fff2e6;
+    transition: 0.3s;
+}
+
+img {
+    width: 90px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+/* ===== FORM ===== */
+form {
+    margin-top: 30px;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    display: inline-block;
+}
+
+form input {
+    padding: 10px;
+    margin: 8px;
+    width: 220px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #B22222;
+}
+
+/* ===== BUTTON ===== */
+button {
+    padding: 10px 18px;
+    background: linear-gradient(90deg, #8B0000, #B22222);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* ===== KONTAK ===== */
+#kontak p {
+    font-size: 16px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: linear-gradient(90deg, #8B0000, #4B0000);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 40px 40px 0 0;
+}
